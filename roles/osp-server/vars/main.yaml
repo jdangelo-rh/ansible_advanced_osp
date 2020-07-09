@@ -1,0 +1,16 @@
+openstack_servers:
+  - name: app1
+    group: apps
+    security_group: apps
+
+  - name: app2
+    group: apps
+    security_group: apps
+
+  - name: db
+    group: appdbs
+    security_group: db
+
+  - name: frontend
+    group: frontends
+    security_group: frontend
